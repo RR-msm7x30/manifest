@@ -12,10 +12,13 @@
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
-  
+           
   <remote  name="msm7x30"
            fetch="https://github.com"
            revision="cm-12.1"/>
+
+   <remote name="bitbucket" 
+          fetch="https://bitbucket.org/" />
 
   <default revision="refs/heads/cm-12.1"
            remote="github"
