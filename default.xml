@@ -563,5 +563,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/cm" name="RR-msm7x30/android_vendor_resurrection" remote="github" revision="lollipop5.1"/> 
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
-  <project path="kernel/samsung/msm7x30" name="Christopher83/samsung-kernel-msm7x30" remote= "github" revision="cm-12.1"/>
+  <project path="kernel/samsung/msm7x30" name="RR-msm7x30/samsung-kernel-msm7x30" remote= "github" revision="cm-12.1"/>
+  <project path="kernel/samsung/msm7x30-common" name="RR-msm7x30/samsung-kernel-msm7x30-common" remote= "github" revision="updates"/>
 </manifest>
