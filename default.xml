@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-		   revision="refs/tags/android-4.4.4_r3" />
+           revision="refs/tags/android-4.4.4_r2" />
 
   <remote  name="github"
            fetch=".."
@@ -29,7 +29,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="RR-msm7x30/platform_manifest" remote="github" revision="kitkat4.4.4" >
+  <project path="android" name="RR-msm7x30/platform_manifest" remote="github" revision="kitkat4.4.4" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" remote="github" />
   <project path="art" name="CyanogenMod/android_art" remote="github" />
@@ -492,7 +492,7 @@
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="rr" revision="kitkat1"/>
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="rr" revision="kitkat1"/>
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="rr" revision="kitkat1"/>
-  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" revision="cm-11.0"/>
+  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github"/>
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="rr" revision="kitkat1"/>
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="rr" revision="kitkat1"/>
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="rr" revision="kitkat1"/>
