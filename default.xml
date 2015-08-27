@@ -459,7 +459,7 @@
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/Settings" name="RR-msm7x30/Resurrection_packages_apps_Settings" remote="github" revision="lollipop5.1"/>
-  <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" remote="github" revision="stable" />
+  <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" remote="github" revision="aosp" />
   <project path="packages/apps/RRWallpapers" name="RR-msm7x30/android_packages_apps_RRWallpapers" remote="msm7x30" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
